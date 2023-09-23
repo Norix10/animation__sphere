@@ -1,0 +1,56 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.header-div{
+    position: fixed;
+    background-color: #000;
+    width: 99.1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__img{
+    margin: 5px 0 5px 10vw;
+}
+
+.profile__img{
+    margin-right: 10vw;
+}
+
+.header-seach{
+    background-color: #fff;
+    width: 30vw;
+    border-radius: 15px;
+}
+
+.search__div{
+    position: relative;
+    background-color: #0F4C75;
+    height: 40px;
+    width: 60px;
+    left: 517px;
+    border-radius: 0 15px 15px 0;
+}
+
+.search__img{
+    position: absolute;
+    z-index: 2;
+    color: black;
+    height: 30px;
+    left: 8px;
+    top: 5px;
+}
+
+
+
+/* ======================MAIN=========================== */
+
+
+.main__div{
+    background: linear-gradient(115deg, #1B262C 3.14%, #0F4C75 49.05%, #3282B8 77.3%, #55BCFF 100%);
+    width: 99.1vw;
+    height: 120vh;
+}
